@@ -1,0 +1,57 @@
+.tablewrap {
+  overflow-y: auto;
+  width: 65%;
+  height: 50vh;
+  margin: 25px 0 0 0;
+}
+
+.details {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: white;
+  width: 20%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.content-table {
+  border-collapse: collapse;
+  font-size: 0.8em;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: #15171c;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+
+.icon {
+  margin-right: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.content-table tbody tr {
+  border-bottom: 1px solid #000000;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+@media print {
+  .tablewrap {
+    margin-left: 20px;
+    height: 100% !important;
+    width: 90%;
+    overflow: visible;
+  }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picker {
+  width: 30%;
+  padding: 0 5px;
+}
+
+.value {
+  width: 60%;
+  padding: 5px;
+  border-radius: 8px;
+}

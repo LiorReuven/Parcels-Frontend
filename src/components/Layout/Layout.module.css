@@ -1,0 +1,14 @@
+.main {
+  margin: 0.5rem;
+}
+
+@media (max-width: 920px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+}

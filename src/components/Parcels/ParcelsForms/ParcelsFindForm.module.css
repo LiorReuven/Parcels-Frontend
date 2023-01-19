@@ -1,0 +1,36 @@
+.search-form {
+  border: 2px solid black;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: rgb(9, 73, 169);
+  align-self: stretch;
+}
+
+.form-title {
+  font-size: 1rem;
+  margin: 0.5rem auto;
+  background-color: #ebb521;
+  border-radius: 8px;
+  width: 70%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.barcode-label {
+  margin-bottom: 0.5rem;
+}
+
+.barcode-input {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-bottom: 0.5rem;
+}
+
+.barcode-input:focus {
+  outline: none;
+  border: 6px solid #ebb521;
+  /* box-shadow: 0 0 5px #719ECE; */
+}
